@@ -6,6 +6,7 @@ namespace IndianStateCensusAnalyse
 {
     public class CensusAnalyserException : Exception
     {
+        //Custom Messages
         public enum ExceptionType
         {
             FILE_NOT_FOUND,

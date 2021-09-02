@@ -11,6 +11,7 @@ namespace IndianStateCensusAnalyse.POCO
         public long area;
         public long density;
 
+        //Parameterized Constructor
         public CensusDataDAO(string state, string population, string area, string density)
         {
             this.state = state;

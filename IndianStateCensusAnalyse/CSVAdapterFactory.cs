@@ -7,6 +7,7 @@ namespace IndianStateCensusAnalyse
 {
     public class CSVAdapterFactory
     {
+        //Dictionary
         public Dictionary<string, CensusDTO> LoadCsvData(CensusAnalyser.Country country, string csvFilePath, string dataHeaders)
         {
             switch (country)
